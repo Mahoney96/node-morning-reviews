@@ -24,4 +24,3 @@ app.get('/api/users/:id', (req, res) => {
     res.status(200).send(user)
   })
 
-app.listen(port, () => console.log(`Server running on port ${port}`))
